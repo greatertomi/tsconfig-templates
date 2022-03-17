@@ -1,0 +1,32 @@
+{
+  "name": "tomi-tsconfig",
+  "version": "1.0.0",
+  "description": "Quickly create John Oshalusi tsconfig setup",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "tsconfig",
+    "tsconfig.json",
+    "typescript",
+    "ts"
+  ],
+  "author": "John Oshalusi",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatertomi/tsconfig-templates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/greatertomi/tsconfig-templates/issues"
+  },
+  "homepage": "https://github.com/greatertomi/tsconfig-templates#readme",
+  "devDependencies": {
+    "prettier": "^2.6.0"
+  }
+}
